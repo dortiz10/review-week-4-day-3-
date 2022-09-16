@@ -30,6 +30,10 @@ print(transportation_means)
 #pop removes the last element
 newTrans = transportation_means.pop()
 print("my new trans is "  +newTrans)
+transportation_means.insert(1,"tesla")
+print(transportation_means)
+transportation_means.insert(2,"camaro")
+print(transportation_means)
 
 # You must not modify the already supplied line of code, but must use the appropriate list method to add a new element.
 
