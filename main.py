@@ -29,10 +29,10 @@ transportation_means.remove("car")
 print(transportation_means)
 #pop removes the last element
 newTrans = transportation_means.pop()
-print("my new trans is "  +newTrans)
-transportation_means.insert(1,"tesla")
+print("my new trans is " + newTrans)
+transportation_means.insert(1, "tesla")
 print(transportation_means)
-transportation_means.insert(2,"camaro")
+transportation_means.insert(2, "camaro")
 print(transportation_means)
 
 # You must not modify the already supplied line of code, but must use the appropriate list method to add a new element.
@@ -61,7 +61,7 @@ print(luckyNumbers[-1])
 ###### sort the list
 
 ###### find a way to insert a new item at the 3rd position of the list
-luckyNumbers.insert(2,"100")
+luckyNumbers.insert(2, "100")
 ###### print the new list out
 print(luckyNumbers)
 ##### reverse the list
